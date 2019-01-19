@@ -1,0 +1,14 @@
+<h1 style="text-align: center">
+  PRODUCT LIST
+</h1>
+
+<div class="row">
+
+<div  *ngFor="let product of Products" class="product">
+<img src="{{product.imgUrl}}" style="width:50%">
+<p>{{product.id}} {{product.name}} 
+</p>
+<button class="btn btn-danger" routerLink="/products/{{product.id}}">Details</button>
+</div>
+
+</div>

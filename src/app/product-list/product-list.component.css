@@ -1,0 +1,12 @@
+.product{
+	padding: 10px; 
+	float: left; 
+	margin: 1%;
+	border: 1px solid grey; 
+	width:48%; 
+	text-align: center;
+}
+.product:hover{
+	border: 1px solid red;
+	cursor: pointer;
+}
